@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as macro %}
+{% block content %}
+<div class="container">
+    <div class="row home-pitches">
+        <div class="col-md-3">
+            <h4 class="text-left">
+                <a class="btn btn-primary" href="/add/category">
+                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Add a category</a>
+            </h4>
+            <ol class="category-list">
+                {{macro.displayCategoryList(categories)}}
+            </ol>
+        </div>
+            <div class="col-md-9 all-pitches">
+                <h2>All Pitches</h2>
+                {{macro.displayAllPitches(all_pitches)}}
+            </div>
+        </div>
+    </div>
+{% endblock %}
