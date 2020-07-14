@@ -1,0 +1,15 @@
+ol.category-list {
+    list-style-type: georgian;
+}
+.my-pitches{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(94, 94, 94, 0.726);
+    border-radius: 7px;
+}
+.all-pitches h2{
+    display: flex;
+    justify-content: center;
+}
