@@ -13,7 +13,7 @@ def index():
     """
 
     all_category = PitchCategory.get_categories()
-    all_pitches = Pitch.query.order_by('-id').all()
+    all_pitches = Pitch.query.order_by('id').all()
     print(all_pitches)
 
     title = 'Home- Welcome'
