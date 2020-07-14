@@ -6,8 +6,8 @@ class Config:
     '''
     General configuration parent class
     '''
-   
-    SECRET_KEY = os.environ.get('SECRET_KEY')
+    SECRET_KEY='@Lb\xf5\xa864L\x8f\xc9\xe8V\x89\xb3\xc7\x8akx\x9b\x0e\x0eJ\xfa\x10'
+    # SECRET_KEY = os.environ.get('SECRET_KEY')
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:Access@localhost/pitches'
     UPLOADED_PHOTOS_DEST ='app/static/photos'
     # simple mde  configurations
