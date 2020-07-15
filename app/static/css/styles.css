@@ -1,5 +1,6 @@
 ol.category-list {
     list-style-type: georgian;
+    color: blueviolet;
 }
 .my-pitches{
     padding-top: 2rem;
@@ -12,4 +13,5 @@ ol.category-list {
 .all-pitches h2{
     display: flex;
     justify-content: center;
+    background-color: aqua;
 }
