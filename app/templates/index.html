@@ -19,6 +19,7 @@
 {% endblock %}
 {% block content %}
 <div class="container">
+    <div class="jumbotron">
     <div class="row home-pitches">
         <div class="col-md-3">
             <h4 class="text-left">
@@ -29,10 +30,14 @@
                 {{macro.displayCategorylist(categories)}}
             </ol>
         </div>
-            <div class="col-md-9 all-pitches">
+            <div class="col-md-4 offset-md-2">
+                
                 <h2>All Pitches</h2>
                 {{macro.displayAllPitches(all_pitches)}}
-            </div>
+            
         </div>
+       </div>
     </div>
 {% endblock %}
+</body>
+</html>
