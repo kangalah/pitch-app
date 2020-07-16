@@ -16,7 +16,7 @@ def index():
     all_pitches = Pitch.query.order_by('id').all()
     print(all_pitches)
 
-    title = 'Home- Welcome'
+    title = 'Home- Welcome to the best pitch app'
     return render_template('index.html', title = title, categories=all_category, all_pitches=all_pitches)
 
 
