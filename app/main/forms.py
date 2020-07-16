@@ -4,14 +4,14 @@ from wtforms.validators import Required
 
 class PitchForm(FlaskForm):
     """
-    Class to create a wtf from for creating a pitch
+    Class to create a wtf form for creating a pitch
     """
     content = TextAreaField('INPUT YOUR PITCH')
     submit = SubmitField('SUBMIT')
 
 class CommentForm(FlaskForm):
     """
-    Class to create a wtf form fro creating a pitch
+    Class to create a wtf form for creating a pitch
     """
     opinion = TextAreaField('WRITE A COMMENT')
     submit = SubmitField('SUBMIT')
