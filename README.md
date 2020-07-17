@@ -34,6 +34,9 @@ One needs to have the following to start work on the project on their local comp
 * Flask.
 * Pip.
 
+# Link to the live site.
+https://git.heroku.com/pithes40.git
+
 ## License
 *MIT* Copyright (c) 2020 Joan Nanjala
 
