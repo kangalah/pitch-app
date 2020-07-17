@@ -35,7 +35,7 @@ One needs to have the following to start work on the project on their local comp
 * Pip.
 
 # Link to the live site.
-https://git.heroku.com/pithes40.git
+https://pithes40.herokuapp.com/
 
 ## License
 *MIT* Copyright (c) 2020 Joan Nanjala
